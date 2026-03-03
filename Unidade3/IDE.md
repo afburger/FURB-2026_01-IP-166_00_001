@@ -16,7 +16,7 @@ Para instalar o Java acesse o link
 
 Selecionar Temurin 21 (LTS) ou uma versão mais recente. Clique no Último Lançamento, e assim irá baixar um arquivo .msi. Depois dê dois clicks no arquivo, … e alguns next … mas ATENÇÃO … se aparecer uma janela deste tipo
 
-![Path do Java](../imgs/OpenJDKpath.png "Path do Java")
+![Path do Java](./imgs/OpenJDKpath.png "Path do Java")
 
 selecione a opção em vermelho. Assim a variável do sistema JAVA_HOME fica definida para está instalação do Java … e depois, next, ..., finish.
 
@@ -50,19 +50,19 @@ Uma maneira prática de testar o ambiente que iremos usar é criando um "Hello W
 
 - No VSCode no menu "View / Command Palette …" digite/selecione "Java:  Create Java Project …".
   
-  ![View / Command Palette](../imgs/VSCodeViewProjetoJava.png "View / Command
+  ![View / Command Palette](./imgs/VSCodeViewProjetoJava.png "View / Command
   Palette")
 
 - Selecione "No build tools" … espere um pouco … e quando aparecer a janela escolha um "local" para salvar o seu projeto. Após selecionar o "local" entre com um nome para seu projeto, e pressione "enter" para confirmar. O seu projeto deve ter sido criado, e aparecer algo deste tipo:  
-![Exemplo de projeto](../imgs/VSCodeExemploProjeto.png "Exemplo de projeto")  
+![Exemplo de projeto](./imgs/VSCodeExemploProjeto.png "Exemplo de projeto")  
 
 - Agora selecione na janela esquerda do VSCode a pasta "src", e depois o arquivo "App.java". As vezes além de abrir a janela para mostrar o arquivo "App.java" também abre a janela "Java Overview" .. por enquanto podes fechar a janela "Java Overview".
   
-![Executando um código em Java](../imgs/VSCodeJavaRun.png "Executando um código em Java")
+![Executando um código em Java](./imgs/VSCodeJavaRun.png "Executando um código em Java")
 
 - Agora clique em "Run" que aparece no texto da janela "App.java" entre as linhas 1 e 2. Assim deve aparecer uma nova janela abaixo da janela do texto do "App.java" com algumas linhas de texto .. é a janela do "TERMINAL". Nesta janela (do TERMINAL) deve aparecer o texto "Hello, World!".
 
-![Execução no Terminal](../imgs/VSCodeJavaTerminal.png "Execução no Terminal")
+![Execução no Terminal](./imgs/VSCodeJavaTerminal.png "Execução no Terminal")
 
 - este texto é a mensagem que foi definida no programa "App.java" para ser escrito para o usuário … e … meus parabéns, já tens o PRIMEIRO programa em Java 😉.
 
