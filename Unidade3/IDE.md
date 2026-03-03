@@ -68,7 +68,7 @@ Uma maneira prática de testar o ambiente que iremos usar é criando um "Hello W
 
 ## VSCode Inlay Hints
 
-[VSCode: Inlay hints](VSCode_JavaInlayHints/JavaInlayHints.md)  
+[VSCode: Inlay hints](vscodeInlayHints.md)  
 
 ## VSCode - para saber mais
 

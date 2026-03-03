@@ -365,11 +365,9 @@ Nos métodos print pode ser feita a concatenação de textos e conteúdos de var
 - Um **ambiente de programação** concentra um conjunto de recursos que facilitam as etapas de construção de um programa na linguagem.​  
 - Os ambientes são comumente denominados de **IDE (Integrated Development Environment – Ambiente Integrado de Desenvolvimento)​**  
 - Exemplos de Ambientes para a linguagem Java:  
+  - IntelliJ
   - Eclipse​  
   - Netbeans​  
-  - BlueJ​  
-  - JCreator  ​
-  - JBuilder​  
   - VSCode  
   - etc.​  
 
