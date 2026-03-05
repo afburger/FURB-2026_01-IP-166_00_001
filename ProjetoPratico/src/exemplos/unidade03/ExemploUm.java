@@ -1,4 +1,4 @@
-package exemplos.unidade01;
+package exemplos.unidade03;
 
 public class ExemploUm {
 
@@ -24,5 +24,5 @@ public class ExemploUm {
 
     int valor3 = valorConstante + numeroInt; 
     
-    
+
 }
