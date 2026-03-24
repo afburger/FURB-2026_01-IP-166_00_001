@@ -1,3 +1,5 @@
+package exercicios.lista04;
+
 import java.util.Scanner;
 
 public class Uni3Uri1021 {
