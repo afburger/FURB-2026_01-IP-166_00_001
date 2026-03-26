@@ -264,3 +264,100 @@ Faça um algoritmo para classificar o IMC e dizer o grau de obesidade do indiví
 | Altura: 1.75 Massa: 120 | Obesidade Grau II (severa) |
 
 ----------
+## Grupo ESCOLHA (switch)
+
+### Uni4Exe22.java
+
+Um aluno está em dúvida sobre o título que vai receber após concluir seu curso de graduação. Considerando que o sistema apresenta 3 cursos disponíveis (1 – Ciência da Computação, 2 – Licenciatura da Computação e 3 – Sistemas de Informação) descreva um algoritmo para ler a opção do aluno e escrever uma mensagem informando o título que o aluno vai receber caso opte por aquele curso. As titulações são respectivamente: "Bacharel em Ciência da Computação", "Licenciado em Computação" e "Bacharel em Sistemas de Informação".  
+
+| Exemplos de entrada | Exemplos de saída |
+| -------- | -------- |
+| 1 | Bacharel em Ciência da Computação |
+| 2 | Licenciado em Computação |
+| 3 | Bacharel em  Sistemas de Informação |
+
+----------
+
+### Uni4Exe23.java
+
+Escreva um algoritmo que leia um número inteiro positivo representando um determinado mês do ano e escreva o mês por extenso. Para valores maiores do que 12 informe que o valor não é válido.  
+Para resolver este problema pode se utilizar do algoritmo descrito no fluxograma:  
+![Uni4Exe23](fluxogramas/Uni4Exe23.svg "Uni4Exe23")  
+
+| Exemplos de entrada | Exemplos de saída |
+| -------- | -------- |
+| 1 | Janeiro |
+| 4 | Abril |
+| 11 | Novembro |
+| 15 | Valor inválido |
+
+----------
+
+### Uni4Exe24.java
+
+Dados 3 valores, escreva um algoritmo que os informe em uma determinada ordem a partir de um menu de opções:  
+> se opção = 1, escreva os 3 valores em ordem crescente  
+> se opção = 2, escreva os 3 valores em ordem decrescente  
+> se opção = 3, escreva os 3 valores de forma que o maior valor fique no meio  
+
+| Exemplos de entrada | Exemplos de saída |
+| -------- | -------- |
+| Valor 1: 5 Valor 2: 3 Valor 3: 2 Opção: 1 | 2 3 5 |
+| Valor 1: 5 Valor 2: 3 Valor 3: 2 Opção: 2 | 5 3 2 |
+| Valor 1: 5 Valor 2: 3 Valor 3: 2 Opção: 3 | 3 5 2 |
+
+----------
+
+### Uni4Exe25.java
+
+Faça um algoritmo que escreva o menu abaixo, leia uma opção do usuário e execute a operação correspondente. O algoritmo deve exibir uma mensagem de erro se a opção for inválida. O menu tem as seguintes opções:  
+    Escolha uma opção:  
+    1 - Soma de dois números.  
+    2 - Diferença entre dois números.  
+    3 - Produto entre dois números.  
+    4 - Divisão entre dois números (o denominador não pode ser zero).  
+
+| Exemplos de entrada | Exemplos de saída |
+| -------- | -------- |
+| Valor 1: 5  Valor 2: 3  Opção: 1 | 8 |
+| Valor 1: 5  Valor 2: 3  Opção: 2 | 2 |
+| Valor 1: 5  Valor 2: 3  Opção: 3 | 15 |
+| Valor 1: 15  Valor 2: 3  Opção: 4 | 5 |
+
+----------
+
+### Uni4Exe26.java
+
+Dado um caractere indicando uma opção, escreva um algoritmo para:  
+> se opção = ‘T’: calcular a área de um triângulo de base b e altura h  
+> se opção = ‘Q’: calcular a área de um quadrado de lado l  
+> se opção = ‘R’: calcular a área de um retângulo de base b e altura h  
+> se opção = ‘C’: calcular a área de um círculo de raio r  
+Para resolver este problema pode se utilizar do algoritmo descrito no fluxograma:  
+![Uni4Exe26](fluxogramas/Uni4Exe26.svg "Uni4Exe26")  
+
+| Exemplos de entrada | Exemplos de saída |
+| -------- | -------- |
+| Opção: T Base: 5 Altura: 2 | 5 |
+| Opção: Q Lado: 8 | 64 |
+| Opção: R Base: 12 Altura: 4 | 48 |
+| Opção: C Raio: 3 | 28.27 |
+----------
+
+### Uni4Exe27.java
+
+As tarifas de um estacionamento são as seguintes:  
+
+> 1&deg; e 2&deg; hora - R$ 5,00 cada  
+> 3&deg; e 4&deg; hora - R$ 7,50 cada  
+> 5&deg; hora e seguintes - R$ 10,00 cada  
+
+O número de horas a pagar é sempre inteiro e arredondado para cima ou para baixo dependendo do tempo. Até 29 minutos depois da chegada, arredonda-se para baixo e após 30 minutos arredonda-se para cima. Por exemplo, quem estacionar durante 1 hora e 15 minutos pagará por 1 hora e quem estacionar por 1 hora e 35 minutos pagará por duas horas. Entretanto, se a pessoa permaneceu menos de 30 minutos, também pagará por uma hora. Os horários de chegada e partida são apresentados na forma de pares de inteiros, representando horas e minutos. Por exemplo, o par 12 50 representará meio dia e cinquenta. Assim, faça um algoritmo que leia os horários de chegada e de partida e escreva na tela o tempo que ficou estacionado, e o preço a ser cobrado. Deverá haver validação de dados. Admite-se que a chegada e a partida se dão com intervalo não superior a 24 horas, e sempre chegam e saem no mesmo dia.  
+
+| Exemplos de entrada | Exemplos de saída |
+| -------- | -------- |
+| horaChegada: 13  minChegada: 10  horaSaida: 13  minSaida: 22 | Preço cobrado = R$5,00 |
+| horaChegada: 03  minChegada: 40  horaSaida: 05  minSaida: 15 | Preço cobrado = R$10,00 |
+| horaChegada: 08  minChegada: 05  horaSaida: 12  minSaida: 46 | Preço cobrado = R$35,00 |
+
+----------
