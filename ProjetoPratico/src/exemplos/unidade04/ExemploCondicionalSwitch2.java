@@ -44,14 +44,14 @@ public class ExemploCondicionalSwitch2 {
         }
 
         // Não é recomendado.
-        switch (valorTotal) {
-            case 10.625:
-                System.out.println("Teste");
-                break;
+        // switch (valorTotal) {
+        //     case 10.625:
+        //         System.out.println("Teste");
+        //         break;
         
-            default:
-                break;
-        }
+        //     default:
+        //         break;
+        // }
 
     }
 
