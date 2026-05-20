@@ -12,13 +12,13 @@ Dica geral: quando o enunciado pede "um método para ler" e "outro para escrever
 
 ----------
 
-**Uni7Exe01.java** - Descreva um algoritmo que leia valores inteiros para preencher uma matriz 4x4. Em seguida, escreva os valores da diagonal principal e a soma desses valores. Faça um método para ler a matriz, outro para identificar e escrever a diagonal principal e outro para calcular e retornar a soma da diagonal.
+**Uni6Exe01.java** - Descreva um algoritmo que leia valores inteiros para preencher uma matriz 4x4. Em seguida, escreva os valores da diagonal principal e a soma desses valores. Faça um método para ler a matriz, outro para identificar e escrever a diagonal principal e outro para calcular e retornar a soma da diagonal.
 
 ----------
-**Uni7Exe02.java** - Descreva um algoritmo que leia valores reais para preencher uma matriz 3x5 (3 linhas e 5 colunas). Essa matriz representa as notas de 3 alunos em 5 provas. O programa deve calcular e exibir a média de cada aluno (média de cada linha) e a média de cada prova (média de cada coluna). Faça um método para ler a matriz, outro para calcular e exibir as médias dos alunos e outro para calcular e exibir as médias das provas.
+**Uni6Exe02.java** - Descreva um algoritmo que leia valores reais para preencher uma matriz 3x5 (3 linhas e 5 colunas). Essa matriz representa as notas de 3 alunos em 5 provas. O programa deve calcular e exibir a média de cada aluno (média de cada linha) e a média de cada prova (média de cada coluna). Faça um método para ler a matriz, outro para calcular e exibir as médias dos alunos e outro para calcular e exibir as médias das provas.
 
 ----------
-**Uni7Exe03.java** - Descreva um algoritmo que leia valores inteiros para preencher duas matrizes 3x3. Crie uma terceira matriz 3x3 que seja o resultado da multiplicação das duas matrizes lidas. Exiba as três matrizes na tela. Faça um método para ler uma matriz, outro para multiplicar as duas matrizes e outro para exibir uma matriz.
+**Uni6Exe03.java** - Descreva um algoritmo que leia valores inteiros para preencher duas matrizes 3x3. Crie uma terceira matriz 3x3 que seja o resultado da multiplicação das duas matrizes lidas. Exiba as três matrizes na tela. Faça um método para ler uma matriz, outro para multiplicar as duas matrizes e outro para exibir uma matriz.
 
 Lembre-se: na multiplicação de matrizes, cada elemento da matriz resultado é calculado pela soma dos produtos dos elementos da linha da primeira matriz pelos elementos da coluna correspondente da segunda matriz.
 
@@ -27,7 +27,7 @@ Lembre-se: na multiplicação de matrizes, cada elemento da matriz resultado é 
 ## Matrizes de Tamanho informado
 
 ----------
-**Uni7Exe04.java** - Uma empresa tem um quadro de funcionários organizado em departamentos. Faça um programa que leia o número de departamentos (linhas) e o número de funcionários por departamento (colunas), limitados a no máximo 10 departamentos e 20 funcionários por departamento. Em seguida, leia o salário de cada funcionário para preencher a matriz. O programa deve informar:
+**Uni6Exe04.java** - Uma empresa tem um quadro de funcionários organizado em departamentos. Faça um programa que leia o número de departamentos (linhas) e o número de funcionários por departamento (colunas), limitados a no máximo 10 departamentos e 20 funcionários por departamento. Em seguida, leia o salário de cada funcionário para preencher a matriz. O programa deve informar:
 
 - o maior salário de toda a empresa e em qual departamento/posição ele se encontra;
 - a média salarial de cada departamento;
@@ -36,7 +36,7 @@ Lembre-se: na multiplicação de matrizes, cada elemento da matriz resultado é 
 Crie um método para ler a matriz, um para encontrar o maior salário, um para calcular e exibir a média de cada departamento e um para contar os funcionários acima da média geral.
 
 ----------
-**Uni7Exe05.java** - Faça um programa que simule um jogo da velha (tic-tac-toe) usando uma matriz 3x3 de caracteres. O programa deve funcionar com um menu que se repete até alguém vencer, dar velha (empate) ou os jogadores escolherem sair:
+**Uni6Exe05.java** - Faça um programa que simule um jogo da velha (tic-tac-toe) usando uma matriz 3x3 de caracteres. O programa deve funcionar com um menu que se repete até alguém vencer, dar velha (empate) ou os jogadores escolherem sair:
 
 - "1 – Jogar": o jogador da vez informa a linha e a coluna onde deseja marcar (X ou O). Se a posição já estiver ocupada, peça outra. Alterne entre os jogadores a cada rodada;
 - "2 – Exibir tabuleiro": mostra o estado atual do tabuleiro formatado;
