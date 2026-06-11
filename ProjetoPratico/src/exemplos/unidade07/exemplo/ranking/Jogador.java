@@ -10,7 +10,7 @@ public class Jogador {
         this.pontuacao = pontuacao;
     }
 
-boolean eDestaque() {
+    boolean eDestaque() {
         if (pontuacao > 1000) {
             return true;
         } else {
